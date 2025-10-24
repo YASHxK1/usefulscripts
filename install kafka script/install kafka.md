@@ -1,4 +1,4 @@
-# 🧭 How to use it
+# 🧭 How to use script install_kafka
 
 1. Save this file as `install_kafka.sh`.
 
