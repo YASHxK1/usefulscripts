@@ -6,19 +6,26 @@
 
    ```bash
    chmod +x install_kafka.sh
+   ```
 
-3.Run it 
+3. Run it:
+
    ```bash
    ./install_kafka.sh
+   ```
 
-4.After it finishes
-Kafka & Zookeeper will both run automatically at boot.
+4. After it finishes
+   Kafka & Zookeeper will both run automatically at boot.
 
-5.Verify
+5. Verify:
+
    ```bash
    sudo systemctl status kafka
    sudo systemctl status zookeeper
+   ```
 
-6.To test quickly
-    ```bash
-    /opt/kafka/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+6. To test quickly:
+
+   ```bash
+   /opt/kafka/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+   ```
